@@ -23,8 +23,6 @@ In this class students will learn basic syntax and concepts of HTML, CSS, and Ja
 
 **Exercises:** hello.js, resume.js, gallery.js, story.js
 
-<hr>
-
 ## Resources
 
 
