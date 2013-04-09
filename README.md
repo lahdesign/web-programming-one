@@ -32,6 +32,29 @@ In this class students will learn basic syntax and concepts of HTML, CSS, and Ja
 
 [**Google Chrome**](https://www.google.com/intl/en/chrome/browser/)
 
+#### Komodo Edit Set Up
+
+1. Remove the buttons at the top of the workspace.<br>
+Go to View / Toolbars<br>
+Remove Tools, Standard, Workspace, and Komodo Resources
+
+2. Set up the split view<br>
+Go to View / Split View<br>
+Go to View / Rotate Split View
+
+3. Add the Toolbox and Syntax Checking *(Optional)*<br>
+Go to View / Tabs and Sidebars<br>
+Select "Toolbox"<br>
+Select "Syntax Checking"
+
+4. Set Defaults<br>
+*Mac OS:* Go to Komodo / Preferences<br>
+*Windows:* Go to Edit / Preferences<br>
+In the Appearance tab uncheck "Show Komodo Start Page on startup"<br>
+In the Syntax Checking tab choose "HTML" for the Language<br>
+Set Error Level to "Errors and Warnings"
+
+
 ### Add-ons, Extensions, and Libraries
 
 [**Chrome Web Developer Tools**](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en)
