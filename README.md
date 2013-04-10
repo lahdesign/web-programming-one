@@ -1,9 +1,9 @@
 Web Programming One
 ===================
 
-This repository contains the class exercises for Introduction to Web Programming, a three-session, nine-hour, class offered by the [AS220 Media Arts](http://as220.org/mediaarts/about/) studio.
+This repository contains the class exercises for Introduction to Web Programming, a three-session, nine-hour class offered by the [AS220 Media Arts](http://as220.org/mediaarts/about/) studio.
 
-In this class students will learn basic syntax and concepts of HTML, CSS, and Javascript/jQuery through in-class exercises and option homework. All three technologies will be linked by an understanding of the Document Object Model (DOM).
+In this class students will learn basic syntax and concepts of HTML, CSS, and Javascript/jQuery through in-class exercises and optional homework. All three technologies will be linked by an understanding of the Document Object Model (DOM).
 
 #### Session 1: HTML
 
@@ -96,6 +96,10 @@ Set Error Level to "Errors and Warnings"
 
 The content of the class exercises is taken from [Project Gutenberg's](http://www.gutenberg.org) edition of [*Alice's Adventures in Wonderland*](http://www.gutenberg.org/ebooks/11), by Lewis Carroll. Illustrations by John Tenniel.
 
+#### License for class content 
+
+[MIT License](http://opensource.org/licenses/MIT)
+
 #### License for content from *Alice's Adventures in Wonderland* 
 
 <pre>
@@ -107,6 +111,3 @@ re-use it under the terms of the Project Gutenberg License included
 with this eBook or online at www.gutenberg.org
 </pre>
 
-#### License for class content 
-
-[MIT License](http://opensource.org/licenses/MIT)
