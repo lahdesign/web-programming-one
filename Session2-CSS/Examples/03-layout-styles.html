@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout Styles</title>
+<style type="text/css" title="text/css">
+
+body {
+  margin: 3em;
+}
+
+p+h2 {
+  margin-top: 1.5em;
+}
+
+code {
+  display: block;
+  white-space: pre;
+  padding: .5em;
+  border: 1px solid #cccccc;
+  font-family: monospace;
+  background-color: #F0F8FF;
+}
+
+code, p, div {
+  margin-left: 16px;
+}
+
+div {
+  margin:  16px 0 16px 16px;
+}
+
+.samplebox {
+  position: relative;
+  border: 1px dotted magenta;
+}
+
+.samplebox div {
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+</style>
+</head>
+<body>
+
+
+<h1>Layout Styles</h1>
+
+<h2>float</h2>
+
+<code>float: left;
+</code>
+
+<div class="samplebox">
+	<div style="float: left;">Alice&rsquo;s Adventures in Wonderland</div>
+	<p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, &lsquo;and what is the use of a book,&rsquo; thought Alice &lsquo;without pictures or conversation?&rsquo;</p>
+</div>
+
+<code>float: right;
+</code>
+
+<div class="samplebox">
+	<div style="float: right;">Alice&rsquo;s Adventures in Wonderland</div>
+	<p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, &lsquo;and what is the use of a book,&rsquo; thought Alice &lsquo;without pictures or conversation?&rsquo;</p>
+</div>
+
+<code>float: none;
+</code>
+
+<div class="samplebox">
+	<div style="float: none;">Alice&rsquo;s Adventures in Wonderland</div>
+	<p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, &lsquo;and what is the use of a book,&rsquo; thought Alice &lsquo;without pictures or conversation?&rsquo;</p>
+</div>
+
+<h2>clear</h2>
+
+<p>Specifies which sides of an element where other floating elements are not allowed</p>
+
+<code>clear: left;
+</code>
+
+<div class="samplebox">
+	<div style="clear: left;">Alice&rsquo;s Adventures in Wonderland</div>
+	<p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, &lsquo;and what is the use of a book,&rsquo; thought Alice &lsquo;without pictures or conversation?&rsquo;</p>
+</div>
+
+<code>clear: right;
+</code>
+
+<div class="samplebox">
+	<div style="clear: right;">Alice&rsquo;s Adventures in Wonderland</div>
+	<p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, &lsquo;and what is the use of a book,&rsquo; thought Alice &lsquo;without pictures or conversation?&rsquo;</p>
+</div>
+
+<code>clear: both;
+</code>
+
+<div class="samplebox">
+	<div style="clear: both;">Alice&rsquo;s Adventures in Wonderland</div>
+	<p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, &lsquo;and what is the use of a book,&rsquo; thought Alice &lsquo;without pictures or conversation?&rsquo;</p>
+</div>
+
+<h2>position</h2>
+
+<code>position: static;
+</code>
+
+<p>This is the default.</p>
+
+<div class="samplebox">
+	<div style="position: static;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>position: fixed;
+</code>
+
+<div class="samplebox">
+	<p>This example is in the upper right of the screen.</p>
+	<div style="position: fixed; top: 10px; right: 10px;">(position: static;)<br> Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>position: relative;
+</code>
+
+<div class="samplebox">
+	<p>A relative positioned element is positioned relative to its normal position.</p>
+	<div style="position: relative; top: 10px; left: 50px;">(position: static;)<br> Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>position: absolute;
+</code>
+
+<div class="samplebox">
+	<p>An absolute position element is positioned relative to the first parent element that has a position other than static. If no such element is found, the containing block is &lt;html&gt;.</p>
+	<div style="position: absolute; top: 40px; right: 50px; z-index: -1;">(position: static;)<br> Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>z-index</h2>
+
+<code>z-index: -1;
+</code>
+
+<p>The z-index property specifies the stack order of an element. (In this example the div with the dotted line is set to relative positioning so the coordinates for the red and blue boxes will be based on it&rsquo;s location.)</p>
+
+<div class="samplebox" style="height: 2em;">
+	<div style="position: absolute; z-index: 2; background-color: red;">Alice&rsquo;s Adventures in Wonderland</div>
+	<div style="position: absolute; z-index: 1; left: 5px; top: 5px; background-color: blue;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>left</h2>
+
+<code>left: 30px;
+</code>
+
+<p>This applies to fixed, relative, and absolute positioning</p>
+
+<div class="samplebox" style="height: 2em;">
+	<div style="position: relative; left: 30px; background-color: red;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>right</h2>
+
+<code>right: 30px;
+</code>
+
+<p>This applies to fixed, relative, and absolute positioning</p>
+
+<div class="samplebox" style="height: 2em;">
+	<div style="position: relative; right: 30px; background-color: red;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>top</h2>
+
+<code>top: 10px;
+</code>
+
+<p>This applies to fixed, relative, and absolute positioning</p>
+
+<div class="samplebox" style="height: 4em;">
+	<div style="position: absolute; top: 10px; background-color: red;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>bottom</h2>
+
+<code>bottom: 10px;
+</code>
+
+<p>This applies to fixed, relative, and absolute positioning</p>
+
+<div class="samplebox" style="height: 4em;">
+	<div style="position: absolute; bottom: 10px; background-color: red;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+
+</body>
+</html>

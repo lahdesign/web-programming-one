@@ -1,0 +1,29 @@
+.horse {
+  font-size: 32px;
+  color: orange;
+  padding-top: 200px;
+  text-align: center;
+  vertical-align: center;
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/horse.png');
+}
+
+.horse.horn {
+  color: yellow;
+  background-image: url('../images/horse.png'),
+                    url('../images/horn.png');
+}
+
+.horse.wings {
+  color: pink;
+  background-image: url('../images/horse.png'),
+                    url('../images/wings.png');
+}
+
+.horse.horn.wings {
+  color: silver;
+  background-image: url('../images/horse.png'),
+                    url('../images/wings.png'),
+                    url('../images/horn.png');
+}

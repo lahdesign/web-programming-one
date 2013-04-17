@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Block Styles</title>
+<style type="text/css" title="text/css">
+
+body {
+  margin: 3em;
+}
+
+p+h2 {
+  margin-top: 1.5em;
+}
+
+code {
+  display: block;
+  white-space: pre;
+  padding: .5em;
+  border: 1px solid #cccccc;
+  font-family: monospace;
+  background-color: #F0F8FF;
+}
+
+code, p, div {
+  margin-left: 16px;
+}
+
+div {
+  margin:  16px 0 16px 16px;
+}
+
+.samplebox {
+  border: 1px dotted magenta;
+}
+
+.samplebox div {
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+</style>
+</head>
+<body>
+
+
+<h1>Block Styles</h1>
+
+<h2>margin</h2>
+
+<code>margin: 10px;
+</code>
+
+<div class="samplebox">
+	<div style="margin: 10px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>margin-top:    10px;
+margin-right:  20px;
+margin-bottom: 30px;
+margin-left:   40px;
+</code>
+
+<div class="samplebox">
+	<div style="margin-top: 10px; margin-right: 20px; margin-bottom: 30px; margin-left: 40px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h4>margin <em>(shorthand)</em></h4>
+
+<code>margin: 10px 20px 30px 40px;
+</code>
+
+<p>Shorthand syntax sets values clockwise from the top.</p>
+
+<div class="samplebox">
+	<div style="margin: 10px 20px 30px 40px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+
+<h2>padding</h2>
+
+<code>padding: 10px;
+</code>
+
+<div class="samplebox">
+	<div style="padding: 10px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>padding-top:    10px;
+padding-right:  20px;
+padding-bottom: 30px;
+padding-left:   40px;
+</code>
+
+<div class="samplebox">
+	<div style="padding-top: 10px; padding-right: 20px; padding-bottom: 30px; padding-left: 40px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h4>padding <em>(shorthand)</em></h4>
+
+<code>padding: 10px 20px 30px 40px;
+</code>
+
+<p>Shorthand syntax sets values clockwise from the top.</p>
+
+<div class="samplebox">
+	<div style="padding: 10px 20px 30px 40px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>outline</h2>
+
+<h4>outline-width</h4>
+
+<code>outline-width: 4px;
+outline-style: solid;
+outline-color: lime;
+</code>
+
+<p>outline width, style, and color must all be set.</p>
+
+<div style="outline-width: 4px; outline-style: solid; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-top-width: 4px;
+outline-right-width: 8px;
+outline-bottom-width: 12px;
+outline-left-width: 16px;
+</code>
+
+<div style="outline-top-width: 4px; outline-right-width: 8px; outline-bottom-width: 12px; outline-left-width: 16px; outline-style: solid; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-width: 4px 8px 12px 16px;
+</code>
+
+<div style="outline-width: 4px 8px 12px 16px; outline-style: solid; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h4>outline-style</h4>
+
+<code>outline-style: solid;
+</code>
+
+<div style="outline-width: 4px; outline-style: solid; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-style: dotted;
+</code>
+
+<div style="outline-width: 4px; outline-style: dotted; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-style: dashed;
+</code>
+
+<div style="outline-width: 4px; outline-style: dashed; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-style: double;
+</code>
+
+<div style="outline-width: 4px; outline-style: double; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-style: groove;
+</code>
+
+<div style="outline-width: 4px; outline-style: groove; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-style: ridge;
+</code>
+
+<div style="outline-width: 4px; outline-style: ridge; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-style: inset;
+</code>
+
+<div style="outline-width: 4px; outline-style: inset; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>outline-style: outset;
+</code>
+
+<div style="outline-width: 4px; outline-style: outset; outline-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h4>outline-color</h4>
+
+<code>outline-color: blue;
+</code>
+
+<div style="outline-width: 4px; outline-style: solid; outline-color: red;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h4>outline shorthand</h4>
+
+<code>outline: 2px solid green;
+</code>
+
+<div style="outline: 2px solid green;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h2>border</h2>
+
+<h4>border-width</h4>
+
+<code>border-width: 4px;
+border-style: solid;
+border-color: lime;
+</code>
+
+<p>Border width, style, and color must all be set.</p>
+
+<div style="border-width: 4px; border-style: solid; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-top-width: 4px;
+border-right-width: 8px;
+border-bottom-width: 12px;
+border-left-width: 16px;
+</code>
+
+<div style="border-top-width: 4px; border-right-width: 8px; border-bottom-width: 12px; border-left-width: 16px; border-style: solid; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-width: 4px 8px 12px 16px;
+</code>
+
+<div style="border-width: 4px 8px 12px 16px; border-style: solid; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h4>border-style</h4>
+
+<code>border-style: solid;
+</code>
+
+<div style="border-width: 4px; border-style: solid; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-style: dotted;
+</code>
+
+<div style="border-width: 4px; border-style: dotted; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-style: dashed;
+</code>
+
+<div style="border-width: 4px; border-style: dashed; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-style: double;
+</code>
+
+<div style="border-width: 4px; border-style: double; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-style: groove;
+</code>
+
+<div style="border-width: 4px; border-style: groove; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-style: ridge;
+</code>
+
+<div style="border-width: 4px; border-style: ridge; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-style: inset;
+</code>
+
+<div style="border-width: 4px; border-style: inset; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<code>border-style: outset;
+</code>
+
+<div style="border-width: 4px; border-style: outset; border-color: lime;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h4>border-color</h4>
+
+<code>border-color: blue;
+</code>
+
+<div style="border-width: 4px; border-style: solid; border-color: red;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h4>border <em>(shorthand)</em></h4>
+
+<code>border: 2px solid green;
+</code>
+
+<div style="border: 2px solid green;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h2>width</h2>
+
+<code>width: 100px;
+</code>
+
+<div style="width: 100px;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h2>height</h2>
+
+<code>height: 100px;
+</code>
+
+<div style="height: 100px;">Alice&rsquo;s Adventures in Wonderland</div>
+
+<h2>box-shadow</h2>
+
+<code style="white-space: pre;">  -webkit-box-shadow: 2px 2px 2px #999;
+     -moz-box-shadow: 2px 2px 2px #999;
+          box-shadow: 2px 2px 2px #999;
+</code>
+
+<p style="-webkit-box-shadow: 2px 2px 2px #999; -moz-box-shadow: 2px 2px 2px #999; box-shadow: 2px 2px 2px #999;">Alice&rsquo;s Adventures in Wonderland</p>
+
+
+</body>
+</html>

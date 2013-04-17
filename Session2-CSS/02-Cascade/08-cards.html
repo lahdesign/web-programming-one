@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cards</title>
+<style type="text/css" title="text/css">
+
+.cards ul {
+  padding: 0;
+  list-style: none;
+  clear: both; /* clear the float of the list items */
+  overflow: auto;
+}
+
+/* these properties will be inherited by the selected element and it's children */
+.cards li {
+  display: block;
+  float: left;
+  padding-top: 30px;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  margin: 4px;
+  width: 60px;
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+/* this is an example of the cascade, everything below it will inherit these properties */
+/* select everything in the DOM including and below hearts */
+.hearts {
+  color: red;
+}
+
+.hearts li {
+  background-image: url('images/hearts.png');
+}
+
+/* select everything in the DOM including and below diamonds */
+.diamonds {
+  color: gray;
+}
+
+.diamonds li {
+  background-image: url('images/diamonds.png');
+}
+
+/* overriding the cascade value with a selection that is closer to the element */
+.ace {
+  color: blue;
+}
+
+</style>
+</head>
+<body>
+
+
+<h1>Cards</h1>
+
+<h2>Hearts</h2>
+
+<div class="cards hearts">
+	<ul>
+		<li class="ace">Ace</li>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>10</li>
+		<li class="jack">Jack</li>
+		<li class="queen">Queen</li>
+		<li class="king">King</li>
+	</ul>
+</div>
+
+<h2>Diamonds</h2>
+
+<div class="cards diamonds">
+	<ul>
+		<li class="ace">Ace</li>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>10</li>
+		<li class="jack">Jack</li>
+		<li class="queen">Queen</li>
+		<li class="king">King</li>
+	</ul>
+</div>
+
+
+</body>
+</html>

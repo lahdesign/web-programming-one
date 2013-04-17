@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Background Styles</title>
+<style type="text/css" title="text/css">
+
+body {
+  margin: 3em;
+}
+
+p+h2 {
+  margin-top: 1.5em;
+}
+
+code {
+  display: block;
+  white-space: pre;
+  padding: .5em;
+  border: 1px solid #cccccc;
+  font-family: monospace;
+  background-color: #F0F8FF;
+}
+
+code, p, div {
+  margin-left: 16px;
+}
+
+div {
+  margin:  16px 0 16px 16px;
+}
+
+.samplebox {
+  position: relative;
+  border: 1px dotted magenta;
+}
+
+.samplebox div {
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+</style>
+</head>
+<body>
+
+
+<h1>Background Styles</h1>
+
+<h2>background-color</h2>
+
+<p>Color can be set in HEX, RGB, or named values;</p>
+
+<code>background-color: #ff0000;
+</code>
+
+<code>background-color: rgb(255,0,0);
+</code>
+
+<code>background-color: red;
+</code>
+
+<div class="samplebox">
+	<div style="background-color: red;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>background-image</h2>
+
+<code>background-image: url('images/sweater.png');
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/sweater.png'); height: 3em;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>background-repeat</h2>
+
+<code>background-repeat: repeat-x;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/sweater.png'); background-repeat: repeat-x; height: 3em;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>background-repeat: repeat-y;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/sweater.png'); background-repeat: repeat-y; height: 3em;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>background-repeat: no-repeat;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/sweater.png'); background-repeat: no-repeat; height: 3em;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>background-position</h2>
+
+<code>background-position: right top;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/cheshire-cat.png'); background-repeat: no-repeat; background-position: right top; height: 200px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>background-position: left bottom;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/cheshire-cat.png'); background-repeat: no-repeat; background-position: left bottom; height: 200px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>background-position: center center;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/cheshire-cat.png'); background-repeat: no-repeat; background-position: center center; height: 200px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>background-size</h2>
+
+<code>background-size: 200px 100px;
+</code>
+
+<p>Measurement can be in pixels or percentage. If only one value is present, the width will be set and the height will adjust proportionally.</p>
+
+<div class="samplebox">
+	<div style="background-image: url('images/cheshire-cat.png'); background-size: 200px 100px; height: 200px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>background-size: 200px 100px;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/cheshire-cat.png'); background-size: 200px 100px; height: 200px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>background-size: cover;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/cheshire-cat.png'); background-size: cover; height: 200px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<code>background-size: contain;
+</code>
+
+<div class="samplebox">
+	<div style="background-image: url('images/cheshire-cat.png'); background-size: contain; height: 200px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+<h2>background <em>(shorthand)</em></h2>
+
+<code>background: red url('images/cheshire-cat.png') no-repeat center center;
+</code>
+
+<div class="samplebox">
+	<div style="background: red url('images/cheshire-cat.png') no-repeat center center; height: 200px;">Alice&rsquo;s Adventures in Wonderland</div>
+</div>
+
+
+</body>
+</html>

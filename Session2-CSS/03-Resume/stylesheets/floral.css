@@ -1,0 +1,43 @@
+body {
+  margin: 40px;
+  color: #2F4F4F;
+  background-image: url('../images/floral.png');
+}
+
+.masthead {
+  text-align: center;
+}
+
+.masthead h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 6em;
+  text-transform: uppercase;
+  color: #6B8E23;
+}
+
+.masthead h2 {
+  margin: 0;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 2em;
+}
+
+section h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #6B8E23;
+}
+
+ul, dl, h3 {
+  margin-left: 40px;
+  padding-left: 0;
+  list-style: none;
+  line-height: 1.4em;
+}
+
+time {
+  margin-right: 10px;
+  font-weight: bold;
+}
