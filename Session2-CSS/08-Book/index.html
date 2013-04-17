@@ -2,17 +2,83 @@
 <html lang="en">
 <head>
 <title>Contents &mdash; Alice&rsquo;s Adventures in Wonderland</title>
+<link rel="stylesheet" href="stylesheets/normalize.css" media="screen" />
+<link rel="stylesheet" href="stylesheets/story.css" media="screen" />
+<style type="text/css" title="text/css">
+
+body {
+  padding: 0;
+  background-image: url('images/cover.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 48px 0;
+  max-width: 510px;
+  min-height: 400px;
+}
+
+.title h1, .title h2, .title h3 {
+  margin: 0;
+  font-weight: normal;
+  color: #fff;
+  -webkit-text-shadow: 2px 2px 2px rgba(0,0,0,.6);
+     -moz-text-shadow: 2px 2px 2px rgba(0,0,0,.6);
+          text-shadow: 2px 2px 2px rgba(0,0,0,.6);
+}
+
+.title h1 {
+  margin-bottom: 48px;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.toc {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 -2px 2px rgba(0,0,0,.3);
+     -moz-box-shadow: 0 -2px 2px rgba(0,0,0,.3);
+          box-shadow: 0 -2px 2px rgba(0,0,0,.3);
+}
+
+.toc ul {
+  padding: 0;
+  list-style: none;
+}
+
+.toc a {
+  padding: 5px;
+  color: #777;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.toc a:hover {
+  color: #fff;
+  background-color: #990000;
+}
+
+.toc p {
+  font-style: italic;
+}
+
+</style>
 </head>
 <body>
 
-<header>
+<header class="title">
 	<h1>Alice&rsquo;s Adventures in Wonderland</h1>
 	<h2>By Lewis Carroll</h2>
 	<h3>The Millennium Fulcrum Edition 3.0</h3>
 </header>
 
-<nav>
-	<h4>Contents</h4>
+<div class="toc">
 	<ul>
 		<li> 
 			<h4><a href="chapter1.html">Chapter I</a></h4>
@@ -63,7 +129,7 @@
 			<p>Alice&rsquo;s Evidence</p>
 		</li>
 	</ul>
-</nav>
+</div>
 
 </body>
 </html>
