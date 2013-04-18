@@ -71,9 +71,12 @@ Set Error Level to "Errors and Warnings"
 
 [**Book: JavaScript & jQuery, by Jon Duckett**](http://www.wiley.com/WileyCDA/WileyTitle/productCd-1118531647.html) ( *available September 2013* )
 
-[**W3C: Markup Syntax**](http://www.w3.org/TR/html-markup/syntax.html)
+[**W3C: HTML Markup Syntax**](http://www.w3.org/TR/html-markup/syntax.html)
 
-[**W3C: Elements by Function**](http://www.w3.org/TR/html-markup/elements-by-function.html)
+[**W3C: HTML Elements by Function**](http://www.w3.org/TR/html-markup/elements-by-function.html)
+
+[**W3Schools: CSS Reference**](http://www.w3schools.com/cssref)
+
 
 ### Help, Resources, and Blogs
 
