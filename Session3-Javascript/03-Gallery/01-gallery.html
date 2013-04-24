@@ -55,28 +55,11 @@ figcaption {
   visibility: visible;
 }
 
-/*
-figure {
-  display: none;
-}
-*/
-
 </style>
 <script src="javascripts/jquery.js" type="application/javascript"></script>
 <script type="application/javascript">
 
 jQuery(document).ready(function() {
-
-  // Hide the figures immediately and save the selection to a variable
-  var figures = $('figure').hide();
-  // i is a counter variable
-  var i = 0;  
-
-  // Immediately invoked function
-  (function fadeImages() {  
-    figures.eq(i++).fadeIn(500,fadeImages);  
-  })(jQuery);
-
 
   $("figure").hover(
     function () {

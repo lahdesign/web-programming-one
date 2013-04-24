@@ -6,12 +6,12 @@
 <link rel="stylesheet" href="stylesheets/story.css" media="screen" />
 <style type="text/css" title="text/css">
 
-nav ul {
-  display: none;
-}
-
 .open {
   display: block;
+}
+
+nav ul {
+  display: none;
 }
 
 </style>
@@ -19,25 +19,6 @@ nav ul {
 <script type="application/javascript">
 
 jQuery(document).ready(function() {
-
-  var menulink  = '#menulink';
-  var menu      = 'nav ul';
-  var nav       = 'nav';
-  var menuclass = 'open';
-
-  // Close overlay if there's a click outside
-  $(document).click(function() {
-    $(menu).removeClass(menuclass);
-  });
-
-  $(nav).click(function(event){
-    event.stopPropagation();
-  });
-
-  $(menulink).click(function(event){
-    $(menu).toggleClass(menuclass);
-    event.stopPropagation();
-  });
 
 });
 
