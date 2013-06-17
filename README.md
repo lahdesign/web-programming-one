@@ -55,21 +55,9 @@ In the Syntax Checking tab choose "HTML" for the Language<br>
 Set Error Level to "Errors and Warnings"
 
 
-### Add-ons, Extensions, and Libraries
-
-[**Chrome Web Developer Tools**](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en)
-
-[**Normalize.css**](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en)
-
-[**jQuery**](http://jquery.com)
-
-[**jQuery Cycle Plugin**](http://www.malsup.com/jquery/cycle/)
-
 ### Reference Books and Websites
 
 [**Book: HTML & CSS, by Jon Duckett**](Book: HTML & CSS, Jon Duckett)
-
-[**Book: JavaScript & jQuery, by Jon Duckett**](http://www.wiley.com/WileyCDA/WileyTitle/productCd-1118531647.html) ( *available September 2013* )
 
 [**W3C: HTML Markup Syntax**](http://www.w3.org/TR/html-markup/syntax.html)
 
