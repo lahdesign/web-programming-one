@@ -11,17 +11,17 @@ In this class students will learn basic syntax and concepts of HTML, CSS, and Ja
 
 **Exercises:** hello.html, resume.html, gallery.html, story.html
 
-#### Session 2: CSS
+#### Session 2: CSS Fundamentals
 
 **Concepts:** Introduction to CSS syntax and explanation of selectors and their relationship to HTML elements.
 
 **Exercises:** resume.css, gallery.css, story.css
 
-#### Session: 3: Javascript and jQuery
+#### Session: 3: CSS Layout
 
-**Concepts:** Introduction to JavaScript and jQuery syntax. Exercises focus on manipulating CSS classes with jQuery and applying basic jQuery plugins.
+**Concepts:** Introduction to CSS layout and applying CSS with classes using the Bootstrap framework.
 
-**Exercises:** hello.js, resume.js, gallery.js, story.js
+**Exercises:** 2- and 3-column Layouts, Complex Grids, Interface Components, Cnline Store Layout
 
 ## Resources
 
@@ -34,25 +34,27 @@ In this class students will learn basic syntax and concepts of HTML, CSS, and Ja
 
 #### Komodo Edit Set Up
 
-1. Remove the buttons at the top of the workspace.<br>
-Go to View / Toolbars<br>
-Remove Tools, Standard, Workspace, and Komodo Resources
+1. Set Defaults<br>
+*Mac OS:* Go to Komodo / Preferences<br>
+*Windows:* Go to Edit / Preferences<br>
+In the Appearance tab uncheck "Show Komodo Start Page on startup"<br>
+In the Syntax Checking tab choose "HTML" for the Language<br>
+Set Error Level to "Errors and Warnings"<br>
+In the Code Intelligence tab uncheck "Automatically insert end tag ..."
+
+2. Add the Toolbox and Syntax Checking *(Optional)*<br>
+Go to View / Tabs and Sidebars<br>
+Select "Toolbox"<br>
+Select "Syntax Checking"
 
 2. Set up the split view<br>
 Go to View / Split View<br>
 Go to View / Rotate Split View
 
-3. Add the Toolbox and Syntax Checking *(Optional)*<br>
-Go to View / Tabs and Sidebars<br>
-Select "Toolbox"<br>
-Select "Syntax Checking"
+1. Remove the buttons at the top of the workspace. *(Optional)*<br>
+Go to View / Toolbars<br>
+Select Show Toolbars so that it is unchecked.
 
-4. Set Defaults<br>
-*Mac OS:* Go to Komodo / Preferences<br>
-*Windows:* Go to Edit / Preferences<br>
-In the Appearance tab uncheck "Show Komodo Start Page on startup"<br>
-In the Syntax Checking tab choose "HTML" for the Language<br>
-Set Error Level to "Errors and Warnings"
 
 
 ### Reference Books and Websites
