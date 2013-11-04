@@ -19,7 +19,7 @@ In this class students will learn basic syntax and concepts of HTML, CSS, and Ja
 
 #### Session: 3: CSS Layout
 
-**Concepts:** Introduction to CSS layout and applying CSS with classes using the Bootstrap framework.
+**Concepts:** Introduction to CSS layout and applying CSS with classes using the [Bootstrap framework (v2)](http://getbootstrap.com/2.3.2/).
 
 **Exercises:** 2- and 3-column Layouts, Complex Grids, Interface Components, Cnline Store Layout
 
