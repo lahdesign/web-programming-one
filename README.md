@@ -38,6 +38,8 @@ In this final session, students will work with a CSS grid framework to layout a 
 
 [**W3Schools: CSS Reference**](http://www.w3schools.com/cssref)
 
+[**Bootstrap Framework Documentation**](http://getbootstrap.com)
+
 ### Continued Learning
 
 [**AS220 Media Arts Web Programming: Beyond the Basics**](https://github.com/tlinkner/web-programming-two)
