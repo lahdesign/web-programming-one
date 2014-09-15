@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HierarchyData</key>
+	<array>
+		<string>56056945-EA40-4A73-A4ED-42B27B13B86C</string>
+	</array>
+	<key>ProjectItems</key>
+	<dict>
+		<key>56056945-EA40-4A73-A4ED-42B27B13B86C</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>AliasData</key>
+				<data>
+				AAAAAAGMAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAA
+				AAAAAADKQLGsSCsAAADgv9MTd2ViLXByb2dyYW1taW5n
+				LW9uZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAQHH282UPpAAAAAAAAAAAP//
+				//8AAAkgAAAAAAAAAAAAAAAAAAAACFByb2plY3RzABAA
+				CAAAykDp7AAAABEACAAAzZR20AAAAAEADADgv9MABQUc
+				AAC+7AACADdNYWNpbnRvc2ggSEQ6VXNlcnM6AHRvZGQ6
+				AFByb2plY3RzOgB3ZWItcHJvZ3JhbW1pbmctb25lAAAO
+				ACgAEwB3AGUAYgAtAHAAcgBvAGcAcgBhAG0AbQBpAG4A
+				ZwAtAG8AbgBlAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBo
+				ACAASABEABIAJ1VzZXJzL3RvZGQvUHJvamVjdHMvd2Vi
+				LXByb2dyYW1taW5nLW9uZQAAEwABLwAAFQACAAv//wAA
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/todd/Projects/web-programming-one/</string>
+				<key>RelativePath</key>
+				<string>./</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>web-programming-one</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+		</dict>
+	</dict>
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>5</integer>
+	<key>com.barebones.DocumentType</key>
+	<string>Project</string>
+</dict>
+</plist>
