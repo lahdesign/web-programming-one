@@ -1,72 +1,54 @@
 Web Programming One
 ===================
 
-This repository contains the class exercises for Introduction to Web Programming, a three-session, nine-hour class offered by the [AS220 Media Arts](http://as220.org/mediaarts/about/) studio.
+This repository contains the class exercises for **Introduction to Web Programming**; a three-session, nine-hour class offered by the [AS220 Media Arts](http://as220.org/mediaarts/about/) studio.
 
-In this class students will learn basic syntax and concepts of HTML, CSS, and Javascript/jQuery through in-class exercises and optional homework. All three technologies will be linked by an understanding of the Document Object Model (DOM).
+In this class students will learn and practice basic syntax and concepts of HTML, CSS, through in-class exercises and optional homework.
 
 #### Session 1: HTML
 
-**Concepts:** Introduction to HTML syntax and document semantics.
-
-**Exercises:** hello.html, resume.html, gallery.html, story.html
+In this session students are introduced to the basic HTML syntax and the concept of semantic markup. Through in-class exercises, students will learn to mark up basic text, links, lists, and tables. 
 
 #### Session 2: CSS Fundamentals
 
-**Concepts:** Introduction to CSS syntax and explanation of selectors and their relationship to HTML elements.
-
-**Exercises:** resume.css, gallery.css, story.css
+This session begins with an introduction to CSS syntax and an explanation of selectors and their relationship to HTML elements. We'll discuss the CSS order of precedence and various techniques for applying styles to HTML elements. Through in-class exercises students will learn basic text styling and object positioning.
 
 #### Session: 3: CSS Layout
 
-**Concepts:** Introduction to CSS layout and applying CSS with classes using the [Bootstrap framework (v2)](http://getbootstrap.com/2.3.2/).
-
-**Exercises:** 2- and 3-column Layouts, Complex Grids, Interface Components, Cnline Store Layout
+In this final session, students will work with a CSS grid framework to layout a basic web page. Next they will create a custom design by writing their own CSS to style the layout.
 
 ## Resources
 
 
 ### Tools
 
-[**Komodo Edit**](http://www.activestate.com/komodo-edit/downloads)
+[**Brackets Code Editor**](http://brackets.io)
 
 [**Google Chrome**](https://www.google.com/intl/en/chrome/browser/)
 
-#### Komodo Edit Set Up
-
-1. Set Defaults<br>
-*Mac OS:* Go to Komodo / Preferences<br>
-*Windows:* Go to Edit / Preferences<br>
-In the Appearance tab uncheck "Show Komodo Start Page on startup"<br>
-In the Syntax Checking tab choose "HTML" for the Language<br>
-Set Error Level to "Errors and Warnings"<br>
-In the Code Intelligence tab uncheck "Automatically insert end tag ..."
-
-2. Add the Toolbox and Syntax Checking *(Optional)*<br>
-Go to View / Tabs and Sidebars<br>
-Select "Toolbox"<br>
-Select "Syntax Checking"
-
-2. Set up the split view<br>
-Go to View / Split View<br>
-Go to View / Rotate Split View
-
-1. Remove the buttons at the top of the workspace. *(Optional)*<br>
-Go to View / Toolbars<br>
-Select Show Toolbars so that it is unchecked.
-
-
-
 ### Reference Books and Websites
 
-[**Book: HTML & CSS, by Jon Duckett**](Book: HTML & CSS, Jon Duckett)
+[**Book: HTML & CSS by Jon Duckett**](http://www.htmlandcssbook.com)
 
 [**W3C: HTML Markup Syntax**](http://www.w3.org/TR/html-markup/syntax.html)
 
 [**W3C: HTML Elements by Function**](http://www.w3.org/TR/html-markup/elements-by-function.html)
 
+[**W3Schools: HTML Tutorial**](http://www.w3schools.com/html/default.asp)
+
 [**W3Schools: CSS Reference**](http://www.w3schools.com/cssref)
 
+### Continued Learning
+
+[**AS220 Media Arts Web Programming: Beyond the Basics**](https://github.com/tlinkner/web-programming-two)
+
+[**Lynda.com**](http://www.lynda.com)
+
+[**Team Treehouse**](http://teamtreehouse.com)
+
+[**Code School**](https://www.codeschool.com)
+
+[**Codecademy**](http://www.codecademy.com)
 
 ### Help, Resources, and Blogs
 
@@ -77,8 +59,6 @@ Select Show Toolbars so that it is unchecked.
 [**W3C HTML Validator**](http://validator.w3.org)
 
 [**W3C CSS Validator**](http://jigsaw.w3.org/css-validator)
-
-[**Blog: A List Apart**](http://24ways.org)
 
 [**Blog: CSS Tricks**](http://css-tricks.com)
 
@@ -98,9 +78,6 @@ The content of the class exercises is taken from [Project Gutenberg's](http://ww
 <pre>
 Project Gutenberg's Alice's Adventures in Wonderland, by Lewis Carroll
 
-This eBook is for the use of anyone anywhere at no cost and with
-almost no restrictions whatsoever.  You may copy it, give it away or
-re-use it under the terms of the Project Gutenberg License included
-with this eBook or online at www.gutenberg.org
+This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
 </pre>
 
