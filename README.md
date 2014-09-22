@@ -24,6 +24,10 @@ In this final session, students will work with a CSS grid framework to layout a 
 
 [**Brackets Code Editor**](http://brackets.io)
 
+[**Brackets W3C Validation Extension**](https://github.com/cfjedimaster/brackets-w3cvalidation)
+
+[**Brackets Emmet Extension**](https://github.com/emmetio/brackets-emmet)
+
 [**Google Chrome**](https://www.google.com/intl/en/chrome/browser/)
 
 ### Reference Books and Websites
