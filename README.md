@@ -28,6 +28,10 @@ In this final session, students will work with a CSS grid framework to layout a 
 
 [**Brackets Emmet Extension**](https://github.com/emmetio/brackets-emmet)
 
+[**Brackets Code Folding Extension**](https://github.com/thehogfather/brackets-code-folding)
+
+[**Brackets Surround Extension**](http://www.granneman.com/webdev/editors/brackets/extensions/surround/)
+
 [**Google Chrome**](https://www.google.com/intl/en/chrome/browser/)
 
 ### Reference Books and Websites
