@@ -42,9 +42,9 @@ In this final session, students will work with a CSS grid framework to layout a 
 
 [**W3C: HTML Elements by Function**](http://www.w3.org/TR/html-markup/elements-by-function.html)
 
-[**W3Schools: HTML Tutorial**](http://www.w3schools.com/html/default.asp)
+[**Mozilla Developer Network: HTML Reference**](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-[**W3Schools: CSS Reference**](http://www.w3schools.com/cssref)
+[**Mozilla Developer Network: CSS Reference**](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 [**Bootstrap Framework Documentation**](http://getbootstrap.com)
 
